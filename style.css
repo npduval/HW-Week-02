@@ -33,33 +33,45 @@
 .header nav ul li {
     display: inline-block;
     margin-left: 45px;
+    background-color: #ddd;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
+.header nav ul li:hover {
+  background-color: #3a72ec;
+  color: white;
+}
 .header a {
     color: white;
     text-decoration: none;
+    
 }
-
+.header a:hover {
+    width: 300px;
+  }
 .hero {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;   
     height: 400px;
     width: 100%;
-    margin-bottom: 25px;
-    
+    background-image: url("istockphoto.jpg");
+    background-size:cover;
+    align-self: flex-end;
     
 
 }
 
 .hero h3 {
-
-    background-image: url("istockphoto.jpg");
-    background-size:cover;
-    background-position: center; 
     width: 100%;
     font-size: 27px;
-    
-    
+    text-align: right;
+    margin: 250px 50px 0 0;
+    color: white;
+ 
 }
 
 
@@ -96,25 +108,60 @@
 
 .bigBox {
     position: relative;
-    background-color: #2a607c;
+    background-image: url("Capture9262021.PNG");
     border: 2px solid grey;
     width: 100%;
     height: 300px;
+    text-decoration: none;
+
+}
+
+.meat > a:hover {
+    background-color:grey;
+    border:15px solid white;
 
 }
 
 .smallBox {
     position: relative;
-    background-color: #2a607c;
+    background-color: #3a72ec;
+    opacity: ;
     border: 2px solid grey;
     width: 50%;
     height: 300px;
+    text-decoration: none;
     
 
 }
 
+h3 {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    
+    
+}
+
 .meat li {
     list-style-type: none;
-    font-size: larger;
+    font-size: 34px;
     text-decoration: underline;
 } 
+
+.meat li:hover {
+    background-color:#3a72ec;
+    font-size: 40px;
+
+}
+
+#resumeLink {
+    font-size: 34px;
+    justify-content:center;
+
+}
+
+#resumeLink:hover {
+    background-color:#3283ac;
+    font-size: 40px;
+
+}
