@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 .header{
@@ -95,7 +96,7 @@ img {
     flex-direction: row;
     padding: 10px 0  0 5%;
     width: 90%;
-  
+    
 
 }
 
@@ -198,9 +199,14 @@ h3 {
     .header {
       text-align: center;
       flex-direction: column;
+     
     }
     .header ul li{
-        margin:10px;
+        margin:10px 0 0 0;
+        width: 100%;
+        justify-content: center;
+    
+        
     }
     .smallBox{
         height: 150px;
