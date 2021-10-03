@@ -58,7 +58,7 @@
     align-items: center;   
     height: 400px;
     width: 100%;
-    background-image: url("istockphoto.jpg");
+    background-image: url("./Assets/istockphoto.jpg");
     background-size:cover;
     align-self: flex-end;
     
@@ -119,7 +119,7 @@ img {
 
 .bigBox {
     position: relative;
-    background-image: url("Capture9262021.PNG");
+    background-image: url("./Assets/Capture9262021.PNG");
     border: 2px solid grey;
     width: 100%;
     height: 300px;
@@ -154,19 +154,19 @@ h3 {
 }
 
 #work2 {
-    background-image: url("code1.jpeg");
+    background-image: url("./Assets/code1.jpeg");
     background-size: contain;
 }
 #work3 {
-    background-image: url("code2.jpg");
+    background-image: url("./Assets/code2.jpg");
     background-size: contain;
 }
 #work4 {
-    background-image: url("code3.jpg");
+    background-image: url("./Assets/code3.jpg");
     background-size: contain;
 }
 #work5 {
-    background-image: url("code4.jpg");
+    background-image: url("./Assets/code4.jpg");
     background-size: contain;
     
 }
