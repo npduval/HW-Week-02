@@ -111,9 +111,12 @@ img {
     background-color: black;
     width: 50%;
     position: absolute;
-    bottom: 5px;
+    bottom: 5px;   
     
-    
+}
+
+.center {
+    justify-content: center;
 }
 
 #work2 {
@@ -145,16 +148,6 @@ img {
 
 }
 
-#resumeLink {
-    font-size: 34px;
-    justify-content:center;
-
-}
-
-#resumeLink:hover {
-    background-color:var(--hover);
-
-}
 @media (max-width: 640px) {
     .header {
       text-align: center;
