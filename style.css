@@ -4,56 +4,16 @@
     margin: 0;
     
 }
-
-.header{
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-
+:root {
+    --backdrop:rgb(152, 194, 192);
+    --hover: white;
+    --border: grey;
 }
+body {
+    background-color: var(--backdrop);
+   }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-    color: white;
-}
 
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 45px;
-    background-color: #ddd;
-    border: none;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.header nav ul li:hover {
-  background-color: #3a72ec;
-  color: white;
-}
-.header a {
-    color: white;
-    text-decoration: none;
-    
-}
-.header a:hover {
-    width: 300px;
-  }
 .hero {
     display: flex;
     align-items: center;   
@@ -71,18 +31,18 @@
     font-size: 27px;
     text-align: right;
     margin: 250px 50px 0 0;
-    color: white;
+    color: var(--hover);
  
 }
 
 img {
-    width:150px;
-    height: 150px;
+    width:120px;
+    height: 120px;
     transform: scaleX(-1);
     align-self: flex-start;
     margin: 15px;
     border-radius: 10px;
-    box-shadow:  -7px 7px 4px grey;
+    box-shadow:  -5px 5px 3px var(--backdrop);
    
 }
 
@@ -112,7 +72,7 @@ img {
     display:flex;
     flex-wrap: wrap;    
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     padding-left: 2%;
     border-left: 4px solid black;
 
@@ -120,8 +80,8 @@ img {
 
 .bigBox {
     position: relative;
-    background-image: url("./Assets/Capture9262021.PNG");
-    border: 2px solid grey;
+    background-image: url("./Assets/dogAdoption.png");
+    border: 2px solid var(--border);
     width: 100%;
     height: 300px;
     text-decoration: none;
@@ -129,16 +89,14 @@ img {
 }
 
 .meat > a:hover {
-    background-color:grey;
-    border:15px solid white;
+    background-color:var(--border);
+    border:15px solid var(--hover);
 
 }
 
 .smallBox {
     position: relative;
-    /* background-color: #3a72ec; */
-    opacity: ;
-    border: 2px solid grey;
+    border: 2px solid var(--hover);
     width: 50%;
     height: 300px;
     text-decoration: none;
@@ -146,21 +104,25 @@ img {
 
 }
 
-h3 {
-    font-size: 28px;
-    color: white;
+.title h3 {
+    font-size: 20px;
+    color: var(--hover);
     text-align: center;
+    background-color: black;
+    width: 50%;
+    position: absolute;
+    bottom: 5px;
     
     
 }
 
 #work2 {
-    background-image: url("./Assets/code1.jpeg");
+    background-image: url("./Assets/weatherDashboard.png");
     background-size: contain;
 }
 #work3 {
-    background-image: url("./Assets/code2.jpg");
-    background-size: contain;
+    background-image: url("./Assets/passwordGenerator.png");
+    background-size:contain;
 }
 #work4 {
     background-image: url("./Assets/code3.jpg");
@@ -179,8 +141,7 @@ h3 {
 } 
 
 .meat li:hover {
-    background-color:#3a72ec;
-    font-size: 40px;
+    background-color:var(--hover);
 
 }
 
@@ -191,8 +152,7 @@ h3 {
 }
 
 #resumeLink:hover {
-    background-color:#3283ac;
-    font-size: 40px;
+    background-color:var(--hover);
 
 }
 @media (max-width: 640px) {
