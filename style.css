@@ -104,8 +104,8 @@ img {
 
 }
 
-.title h3 {
-    font-size: 20px;
+.title {
+    font-size: 16px;
     color: var(--hover);
     text-align: center;
     background-color: black;
@@ -114,6 +114,7 @@ img {
     bottom: 5px;   
     
 }
+
 
 .center {
     justify-content: center;
@@ -128,11 +129,11 @@ img {
     background-size:contain;
 }
 #work4 {
-    background-image: url("./Assets/code3.jpg");
+    background-image: url("./Assets/readmeimage.png");
     background-size: contain;
 }
 #work5 {
-    background-image: url("./Assets/code4.jpg");
+    background-image: url("./Assets/notetakerimage.png");
     background-size: contain;
     
 }
